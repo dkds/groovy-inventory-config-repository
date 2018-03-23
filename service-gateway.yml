@@ -1,0 +1,10 @@
+server.port: 8080
+
+zuul:
+  routes:
+    customers:
+      path: /service-customer/**
+      serviceId: service-customer
+    suppliers:
+      path: /service-supplier/**
+      serviceId: service-supplier

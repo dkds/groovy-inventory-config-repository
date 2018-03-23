@@ -8,3 +8,6 @@ zuul:
     suppliers:
       path: /service-supplier/**
       serviceId: service-supplier
+
+eureka.client.fetchRegistry: true
+ribbon.eureka.enabled: true

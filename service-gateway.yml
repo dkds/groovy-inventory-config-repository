@@ -15,20 +15,20 @@ zuul:
 eureka.client.fetchRegistry: true
 ribbon.eureka.enabled: true
 
-customers:
-  ribbon:
-    NIWSServerListClassName: com.netflix.loadbalancer.ConfigurationBasedServerList
-    ListOfServers: http://CMLDDISSNAYAKE.Virtusa.com:8091
-    ConnectTimeout: 1000
-    ReadTimeout: 3000
-    MaxTotalHttpConnections: 500
-    MaxConnectionsPerHost: 100
-
-suppliers:
-  ribbon:
-    NIWSServerListClassName: com.netflix.loadbalancer.ConfigurationBasedServerList
-    ListOfServers: http://CMLDDISSNAYAKE.Virtusa.com:8092
-    ConnectTimeout: 1000
-    ReadTimeout: 3000
-    MaxTotalHttpConnections: 500
-    MaxConnectionsPerHost: 100
+#customers:
+#  ribbon:
+#    NIWSServerListClassName: com.netflix.loadbalancer.ConfigurationBasedServerList
+#    ListOfServers: http://CMLDDISSNAYAKE.Virtusa.com:8091
+#    ConnectTimeout: 1000
+#    ReadTimeout: 3000
+#    MaxTotalHttpConnections: 500
+#    MaxConnectionsPerHost: 100
+#
+#suppliers:
+#  ribbon:
+#    NIWSServerListClassName: com.netflix.loadbalancer.ConfigurationBasedServerList
+#    ListOfServers: http://CMLDDISSNAYAKE.Virtusa.com:8092
+#    ConnectTimeout: 1000
+#    ReadTimeout: 3000
+#    MaxTotalHttpConnections: 500
+#    MaxConnectionsPerHost: 100

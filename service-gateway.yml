@@ -8,6 +8,9 @@ zuul:
     suppliers:
       path: /service-supplier/**
       serviceId: service-supplier
+    test:
+      path: /test/**
+      url: https://cloud.spring.io/spring-cloud-netflix/multi/multi__router_and_filter_zuul.html
 
 eureka.client.fetchRegistry: true
 ribbon.eureka.enabled: true

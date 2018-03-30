@@ -1,0 +1,4 @@
+logging.file: application.log
+logging.file:
+  max-size: 2MB
+  max-history: 0
